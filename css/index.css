@@ -1,0 +1,17 @@
+#brand{
+	width: 100%;
+}
+
+.navbar-brand{
+	width: 53vmin;
+}
+
+nav{
+	box-shadow: 0.01px 0px 5px 0.01px black;  
+
+}
+
+.navbar-collapse{
+	position: relative;
+	top: 8px;
+}
