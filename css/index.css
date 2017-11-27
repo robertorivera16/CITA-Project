@@ -20,13 +20,17 @@ body{
 .noticia{
 	margin-top: 15px;
 	padding-left: 10px;
-	border-left: 3px solid #478AB2;
+	border-left: 2.5px solid #9FCAE4;
 	margin-left: 8px;
 }
 
-.noticia-text{
-	font-size: 3vmin;
+.noticia-text-content{
+	font-size: 2.5vmin;
 	font-family: Noticia Text;
+}
+
+.noticia-text-title{
+	font-size: 6vmin;
 }
 
 
@@ -34,8 +38,12 @@ body{
 	width: 100%;	
 }
 
+.p-img{
+	width: 32vmin;
+}
+
 .carousel-item .row{
-	height: 60vmin;
+	height: 45vmin;
 }
 
 .headline{
@@ -52,5 +60,6 @@ body{
 
 .content-text{
 	font-family: Noticia Text;
+	font-size: 2.5vmin;
 }
 
