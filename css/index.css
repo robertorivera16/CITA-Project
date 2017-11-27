@@ -17,9 +17,18 @@ body{
 	background-color: #478AB2;
 }
 
-.carousel-text{
-	display: inline-flex;
+.noticia{
+	margin-top: 15px;
+	padding-left: 10px;
+	border-left: 3px solid #478AB2;
+	margin-left: 8px;
 }
+
+.noticia-text{
+	font-size: 3vmin;
+	font-family: Noticia Text;
+}
+
 
 .cimage{
 	width: 100%;	
