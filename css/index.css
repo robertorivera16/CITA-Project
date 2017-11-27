@@ -3,10 +3,15 @@ body{
 	background-color: #e9ecef;
 
 }
+.navbar-nav{
+	font-size: 3.2vmin;
+	position: relative;
+	top: 4.1px;
+}
 
 .navbar-brand {
 	font-family: Playfair Display;
-	font-size: 5vmin;
+	font-size: 6vmin;
 }
 
 .carousel-indicators li{
