@@ -1,17 +1,47 @@
-#brand{
+body{
+	font-family: Noticia Text;
+	background-color: #e9ecef;
+
+}
+
+.navbar-brand {
+	font-family: Playfair Display;
+	font-size: 5vmin;
+}
+
+.carousel-indicators li{
+	background-color: #9FCAE4;
+}
+
+.carousel-indicators .active{
+	background-color: #478AB2;
+}
+
+.carousel-text{
+	display: inline-flex;
+}
+
+.cimage{
+	width: 100%;	
+}
+
+.carousel-item .row{
+	height: 60vmin;
+}
+
+.headline{
 	width: 100%;
 }
 
-.navbar-brand{
-	width: 53vmin;
+.overview-img{
+	width: 100%;
 }
 
-nav{
-	box-shadow: 0.01px 0px 5px 0.01px black;  
-
+.title-text{
+	font-family: Playfair Display;
 }
 
-.navbar-collapse{
-	position: relative;
-	top: 8px;
+.content-text{
+	font-family: Noticia Text;
 }
+
