@@ -4,9 +4,8 @@ $(document).ready(function(){
         if ($('#bio1').isOnScreen()) {
             // The element is visible, do something
             
-            
             $('#bio1').removeClass('invisible'); 
-            $('#bio1').addClass('magictime spaceInRight'); 
+            $('#bio1').addClass('magictime swashIn'); 
 
         }
         if ($('#bio2').isOnScreen()) {
@@ -14,15 +13,16 @@ $(document).ready(function(){
             
             
             $('#bio2').removeClass('invisible'); 
-            $('#bio2').addClass('magictime spaceInRight'); 
+            $('#bio2').addClass('magictime swashIn'); 
         } 
         if ($('#bio3').isOnScreen()) {
             // The element is visible, do something
             
             
             $('#bio3').removeClass('invisible'); 
-            $('#bio3').addClass('magictime spaceInRight'); 
+            $('#bio3').addClass('magictime swashIn'); 
         } 
+         
     });
 });
 
